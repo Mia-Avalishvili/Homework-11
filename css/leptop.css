@@ -1,0 +1,12 @@
+@media(max-width:1100px){
+    .container {
+        padding-top: 32px;
+        padding-inline: 50px;
+    }
+    .second_section{
+        grid-template-columns: 1fr 1fr;
+    }
+    .none1100{
+        display: none;
+    }
+}

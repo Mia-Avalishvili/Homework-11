@@ -1,0 +1,10 @@
+@media(max-width:380px){
+    .container {
+        padding: 8px; 
+    }
+     .none330{
+        display: none;
+     }
+}
+
+
