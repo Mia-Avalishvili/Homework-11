@@ -1,0 +1,108 @@
+:root {
+    --primary-Color: #0D0C22;
+    --primary-Color-sec: #EA4C89;
+    --Secondary-Color: #3D3D4E;
+    --Secondary-Color-sec: #FFFFFF;
+    --Secondary-Color-thr: #FAEBF9;
+    --Typography: font-family: "Inter", sans-serif;
+    --border-radius-btn1: 8px;
+    --border-radius-btn2: 16px;
+    --border-radius-btn3: 30px;
+}
+
+body {
+    font-family: var(--Typography);
+}
+
+.container {
+    width: min(100%, 1440px);
+    margin: auto;
+    padding: 70px;
+}
+
+/* first section  */
+.first_section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 70px;
+}
+
+.btn1 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    background-color: var(--Secondary-Color-thr);
+    width: 101px;
+    height: 40px;
+    border-radius: var(--border-radius-btn1);
+    border: 1px solid #3D3D4E;
+    color: var(--primary-Color);
+}
+
+.btn2 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    background-color: var(--Secondary-Color-thr);
+    width: 103px;
+    height: 40px;
+    border-radius: var(--border-radius-btn2);
+    border: 1px solid #3D3D4E;
+    color: var(--primary-Color);
+}
+
+/*  second section  */
+.second_section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px 20px;
+}
+
+.section_div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 12px;
+}
+
+.article_div,
+.sec2,
+.third {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+/* sashineli classebi weria vici :( */
+
+.article_div {
+    gap: 8px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+}
+
+.sec2,
+.third {
+    font-weight: 400;
+    font-size: 12px;
+    color: var(--Secondary-Color);
+    line-height: 16px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+} 
